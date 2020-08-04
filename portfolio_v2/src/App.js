@@ -7,13 +7,14 @@ function App() {
     <div className="App">
       <section>
         <header className="App-header">
-          <h1>Montensia Banks</h1>
-          <h2>Software Engineer</h2>
-
+          <div className="Heading-txt">
+            <h1>Montensia Banks</h1>
+            <h2>Software Engineer</h2>
+          </div>
         </header>
       </section>
     </div>
-  );
+  )
 }
 
 export default App;
