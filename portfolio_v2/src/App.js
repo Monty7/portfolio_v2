@@ -1,14 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import keyboard from './img/keyboard_2000x1125.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={keyboard} className="App-logo" alt="logo" />
-      </header>
+      <section>
+        <header className="App-header">
+          <h1>Montensia Banks</h1>
+          <h2>Software Engineer</h2>
+
+        </header>
+      </section>
     </div>
   );
 }
