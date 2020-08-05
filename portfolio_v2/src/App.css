@@ -1,4 +1,4 @@
-.App {
+.portfolio {
   display: flex;
 
 }
@@ -9,9 +9,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 } */
-.App-header {
-  
-}
+
 
 h1 {
   font-size: 5em;
@@ -66,6 +64,15 @@ opacity: 0.4;
 
 .App-link {
   color: #61dafb;
+}
+
+.leftPane, .rightPane {
+  width: 50%;
+}
+
+.rightPane {
+  display: flex;
+  flex-direction: column;
 }
 
 /* @keyframes App-logo-spin {
