@@ -1,5 +1,5 @@
 import React from 'react';
-import keyboard from './img/keyboard_2000x1125.jpg';
+import PortfolioContainer from './portfolio_components/PortfolioContainer'
 import './App.css';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
             <h2>Software Engineer</h2>
           </div>
         </header>
+        <PortfolioContainer />
       </section>
     </div>
   )
