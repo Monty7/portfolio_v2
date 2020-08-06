@@ -4,7 +4,7 @@ import GiftContainer from './giftlist/GiftContainer'
 const PortfolioContainer = () => {
 
     return (
-        <section className="portfolio">
+        <section>
             <GiftContainer />
         </section>
 

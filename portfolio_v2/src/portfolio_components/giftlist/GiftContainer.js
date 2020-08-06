@@ -4,7 +4,7 @@ import RightPaneGift from './RightPaneGift'
 
 const GiftContainer = () => {
     return (
-        <section>
+        <section className="portfolio">
             <LeftPaneGift />
             <RightPaneGift />
         </section>
