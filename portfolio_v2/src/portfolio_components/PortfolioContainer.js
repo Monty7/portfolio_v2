@@ -4,9 +4,9 @@ import GiftContainer from './giftlist/GiftContainer'
 const PortfolioContainer = () => {
 
     return (
-        <section>
+        <>
             <GiftContainer />
-        </section>
+        </>
 
     )
 
