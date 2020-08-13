@@ -4,7 +4,7 @@
     padding: 80px 80px 0;
   }
 
-  .leftPane .rightPane {
+  .leftPane, .rightPane {
     max-width: 50%;
     width: 50%;
     display: flex;
