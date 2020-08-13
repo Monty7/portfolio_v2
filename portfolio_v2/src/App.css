@@ -1,16 +1,16 @@
 @media screen and (min-width: 1200px){
   .portfolio {
     display: flex;
-
     padding: 80px 80px 0;
-
   }
 
   .leftPane .rightPane {
+    max-width: 50%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin-bottom: 125px;
-    width: 50%;
+
   }
 }
 
@@ -32,7 +32,6 @@ h1 {
 
 header {
   display: flex;
-
   align-items: center;
   justify-content: center;
   height: 600px;
@@ -85,21 +84,15 @@ opacity: 0.4;
 
 
 .rightPane div {
-  position: relative;
-  width: 638px;
   height: 425px;
   overflow: hidden;
   margin-bottom: 60px;  
 }
 
 .rightPane div img {
-  position: absolute;
   max-width: 100%;
   width: 100%;
   height: auto;
-  top: 50%;     
-  left: 50%;
-  transform: translate( -50%, -50%);
 }
 
 /* @keyframes App-logo-spin {
