@@ -1,13 +1,14 @@
 import React from 'react';
+import giftList from '../../img/portfolio/giftList.png'
 
 const RightPaneGift = () => {
     return (
         <div className="rightPane">
             <div>
-                <img src="https://www.common.com/images/studio/services/common-melrose-at-twilight.jpg" />
+                <img src={giftList} />  
             </div>
             <div>
-                <img src="https://www.common.com/images/studio/services/dining-room-at-common-melrose.jpg" />
+                <img src="https://www.common.com/images/studio/services/common-melrose-at-twilight.jpg" />
             </div>
         </div>
     )
