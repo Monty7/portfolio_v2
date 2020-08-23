@@ -2,15 +2,24 @@
   .portfolio {
     display: flex;
     padding: 80px 80px 0;
+    align-items: flex-start;
   }
 
   .leftPane, .rightPane {
     max-width: 50%;
     width: 50%;
+    margin-bottom: 125px;
+  }
+
+  .rightPane {
     display: flex;
     flex-direction: column;
-    margin-bottom: 125px;
+  }
 
+  .leftPane {
+    position: sticky;
+    top: 0;
+    left: 0;
   }
 }
 
