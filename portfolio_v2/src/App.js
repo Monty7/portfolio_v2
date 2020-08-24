@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
 import PortfolioContainer from './portfolio_components/PortfolioContainer'
-import './App.css';
+import Nav from './nav_component/Nav'
+import './App.css'
 
 function App() {
   return (
     <main className="App">
-      
+        <Nav />
         <header className="App-header">
           <div className="Heading-txt">
             <h1>Montensia Banks</h1>
