@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  --text-primary: #b6b6b6;
+  --text-primary: rgb(238, 9, 169);
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
@@ -10,10 +10,15 @@
 @media screen and (min-width: 1200px){
   .navbar {
     position: fixed;
-    background-color: black;
-    transition: width 200ms ease;
+    background-color: var(--bg-primary);
+    width: 5rem;
+    transition: width var(--transition-speed) ease;
+    overflow: scroll;
   }
 
+  .navbar:hover {
+    width: 10rem;
+  }
 
   .navbar:hover .nav-text {
     display: block;
@@ -24,9 +29,13 @@
     padding: 0;
     margin: 0;
     display: flex;
- 
+    height: 100vh;
     flex-direction: column;
 
+  }
+
+  .nav-item {
+    width: 100%;
   }
 
   .nav-link {
@@ -35,6 +44,12 @@
     height: 5rem;
     color: var(--text-primary);
     text-decoration: none;
+    filter: grayscale(50%) opacity(0.8);
+    transition: filter var(--transition-speed) ease;
+  }
+
+  .nav-link:hover {
+    filter: grayscale(0%) opacity(1);
   }
 
   .nav-text {
